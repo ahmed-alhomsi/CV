@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 1.25em;
+}
+
+i {
+    margin-right: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5,4,4);
+}
+
+main {
+    display: flex;
+    place-content: center;
+}
+
+section {
+    margin: 2em;
+    padding-left: 1em;
+}
+
+.cv {
+    display: flex;
+    margin-top: 1em;
+    box-shadow: -5px 5px 10px 6px rgba(5,4,4, .5);
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+.col-1 {
+    border-top-left-radius: 15px;
+    max-width: 35%;
+    color: rgb(5,4,4);
+    border-bottom-left-radius: 15px;
+    background-color: rgb(219,169,20);
+}
+
+/* .col-1 .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+} */
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+    border-bottom: solid 2px rgb(5,4,4);
+    height: 2em;
+}
+
+.personal-info-section {
+    margin-top: 5em;
+}
+
+.img-div {
+    border-radius: 15px;
+    background: rgb(219, 169, 20);
+    position: relative;
+}
+
+img {
+    filter: brightness(80%);
+    border-top-left-radius: 15px;
+    display: block;
+    max-width: 18em;
+}
+
+.num {
+    margin: 0;
+}
+
+.col-2 {
+    z-index: 1;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(5,4,4);
+    color: rgb(219,169,20);
+}
+
+.col-2 p {
+    margin-top: 1em;
+    max-width: 40ch;
+    line-height: 1.25em;
+}
+
+.about-section {
+    min-width: 30em;
+}
+
+.education-div {
+    display: flex;
+    flex-direction: row-reverse;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.skills-imgs {
+    margin-left: -2em;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.html {
+    height: 5em;
+    margin-bottom: 1em;
+    object-position: 0;
+}
+
+.css {
+    height: 5em;
+    object-position: 0;
+    margin-bottom: 1em;
+}
+
+.javascript {
+    object-position: 0;
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+.languages-div {
+    display: flex;
+}
+
+.languages-div ul {
+    margin-right: auto;
+}
