@@ -42,6 +42,7 @@ main {
 section {
     margin: 2em;
     padding-left: 1em;
+    border-left: solid 2px rgb(219,169,20);
 }
 
 .cv {
@@ -60,21 +61,11 @@ section {
     background-color: rgb(219,169,20);
 }
 
-/* .col-1 .container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%; 
-} */
-
 .name {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1em;
     border-bottom: solid 2px rgb(5,4,4);
     height: 2em;
-}
-
-.personal-info-section {
-    margin-top: 5em;
 }
 
 .img-div {
@@ -96,10 +87,12 @@ img {
 
 .col-2 {
     z-index: 1;
+    position: relative;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: rgb(5,4,4);
     color: rgb(219,169,20);
+    padding-bottom: 5em;
 }
 
 .col-2 p {
@@ -108,7 +101,15 @@ img {
     line-height: 1.25em;
 }
 
+.page-div {
+    text-align: center;
+}
+
 .about-section {
+    min-width: 30em;
+}
+
+.hobbies-div {
     min-width: 30em;
 }
 
@@ -154,4 +155,35 @@ img {
 
 .languages-div ul {
     margin-right: auto;
+}
+
+.portfolio-link {
+    color: rgb(219,169,20);
+}
+/* 
+.change-page-div button {
+    display: flex;
+    place-items: center;
+} */
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button-div button{
+    margin-top: auto;
+    padding: 1em;
+    background-color: rgb(219,169,20);
+    color: rgb(5,4,4);
+    border-radius: 10px;
+    border: solid 1px rgb(5,4,4);
+    transition: all ease-in-out 250ms;
+}
+
+.button-div button:hover {
+    color:rgb(219, 169, 20);
+    background-color: rgb(5,4,4);
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
 }
