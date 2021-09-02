@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 html {
     font-family: 'Montserrat', sans-serif;
@@ -98,7 +97,7 @@ img {
 .col-2 p {
     margin-top: 1em;
     max-width: 40ch;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 .page-div {
@@ -160,11 +159,6 @@ img {
 .portfolio-link {
     color: rgb(219,169,20);
 }
-/* 
-.change-page-div button {
-    display: flex;
-    place-items: center;
-} */
 
 .button-div {
     display: flex;

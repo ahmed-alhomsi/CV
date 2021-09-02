@@ -5,7 +5,6 @@ let changeContent = document.getElementById('change-me');
 
 btn.addEventListener('click',()=>{
     if(parseInt(currentPage.textContent) === 1){
-    console.log(changeContent);
         currentPage.textContent = 2;
         btnTxt.textContent = 'Previous Page';
         changeContent.innerHTML = `<section class="hobbies-div">
