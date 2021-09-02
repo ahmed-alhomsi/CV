@@ -79,7 +79,7 @@ img {
 }
 
 .personal-img {
-    max-width: 17em;
+    max-width: 18em;
 }
 
 .num {
@@ -235,6 +235,11 @@ img {
 
     section p{
         margin: 0 auto;
+        width: 35ch;
+    }
+
+    section h1,h2,h3 {
+        margin: 5%;
     }
 
     .languages-div {
