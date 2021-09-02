@@ -42,11 +42,11 @@ btn.addEventListener('click',()=>{
         <section class="languages-section">
         <h2>LANGUAGES</h2>
         <div class="languages-div">
-            <ul>
+            <ul class="languages">
                 <li>English</li>
                 <li>German</li>
             </ul>
-            <ul>
+            <ul class="level">
                 <li>Advanced (C2)</li>
                 <li>Beginner</li>
             </ul>
