@@ -12,16 +12,16 @@ btn.addEventListener('click',()=>{
         <p>
             I like
             reading in my spare time and on my way home
-            from university, since my university is a bit faraway from my home(usually 1.5-2 hours of commute), I like taking full advantage of the little time we have on this world, I think reading definitely opens up
+            from university, since my university is a bit faraway from my home (usually 1.5-2 hours of commute), I like taking full advantage of the little time we have on this world, I think reading opens up
             the mind to different possibilities and new
-            ways of thinking, So I try to do as much of that as I can.
+            ways of thinking, so I try to do as much of that as I can.
         </p>
         </section>
         <section class="education-section">
         <h2>EDUCATION</h2>
         <div class="education-div">
-            <h3 class="date">9 / 2020</h3>
-            <h3 class="degree-details">Arab international university</h3>
+            <h3 class="date">(start) 9 / 2020</h3>
+            <h3 class="degree-details">Arab International University (AIU)</h3>
         </div>
         </section>
         <section class="skills-section">
@@ -46,6 +46,10 @@ btn.addEventListener('click',()=>{
                 <li>English</li>
                 <li>German</li>
             </ul>
+            <ul>
+                <li>  |  </li>
+                <li>  |  </li>
+            </ul>
             <ul class="level">
                 <li>Advanced (C2)</li>
                 <li>Beginner</li>
@@ -53,7 +57,7 @@ btn.addEventListener('click',()=>{
         </div>
         </section>
         <section class="portfolio-link">
-        <h2><a class="portfolio-link" href="" target="_blank">Portfolio</a></h2>
+        <h2><a class="portfolio-link" href="#" target="_blank">Portfolio</a></h2>
         </section>`;
     } else {
         currentPage.textContent = 1;
