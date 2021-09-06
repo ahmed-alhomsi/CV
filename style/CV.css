@@ -38,6 +38,10 @@ main {
     place-content: center;
 }
 
+img {
+    display: block;
+}
+
 section {
     margin: 2em;
     margin-right: 0em;
@@ -74,15 +78,13 @@ section {
     position: relative;
 }
 
-img {
-    filter: brightness(80%);
-    border-top-left-radius: 15px;
-    display: block;
-}
-
 .personal-img {
     margin: 0 auto;
-    max-width: 24em;
+    margin-top: 2em;
+    max-width: 10em;
+    max-height: 10em;
+    border-radius: 50%;
+    border: solid 5px rgb(5,4,4);
 }
 
 .links-div {
