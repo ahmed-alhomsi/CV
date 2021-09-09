@@ -5,6 +5,16 @@ html {
     font-weight: 900;
 }
 
+::selection {
+    color:rgb(5,4,4);
+    background: rgb(219, 169, 20);
+}
+
+::-moz-selection {
+    color:rgb(5,4,4);
+    background: rgb(219, 169, 20);
+}
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -87,6 +97,11 @@ section {
     border: solid 5px rgb(5,4,4);
 }
 
+.personal-img:hover {
+    transform: scale(1.2);
+    transition: transform ease-in-out 500ms;
+}
+
 .links-div {
     margin-top: 4em;
 }
@@ -148,16 +163,31 @@ section {
     object-position: 0;
 }
 
+.html:hover {
+    transform: rotate(-30deg);
+    transition: transform ease-in-out 200ms;
+}
+
 .css {
     height: 5em;
     object-position: 0;
     margin-bottom: 1em;
 }
 
+.css:hover {
+    transform: rotateX(-360deg);
+    transition: transform ease-in-out 666ms;
+}
+
 .javascript {
     object-position: 0;
     height: 5em;
     margin-bottom: 1em;
+}
+
+.javascript:hover {
+    transform:rotate(30deg);
+    transition: transform ease-in-out 200ms;
 }
 
 .date {
