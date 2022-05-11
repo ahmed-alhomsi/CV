@@ -149,12 +149,14 @@ section {
 .skills-imgs {
     margin-left: -2em;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skills {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .html {
@@ -188,6 +190,25 @@ section {
 .javascript:hover {
     transform:rotate(30deg);
     transition: transform ease-in-out 200ms;
+}
+
+.react {
+    height: 7em;
+    width: 7em;
+}
+
+.react-h3 {
+    margin-left: 35px;
+}
+
+.bootstrap {
+    height: 6em;
+    width: 6em;
+    padding: 0.2em;
+}
+
+.bootstrap-h3 {
+    margin-right: 45px;
 }
 
 .date {
