@@ -70,6 +70,16 @@ btn.addEventListener('click',()=>{
                                 <h3 class="css-h3">CSS</h3>
                                 <h3 class="js-h3">JAVASCRIPT</h3>
                             </div>
+                            <div class="skills-div">
+                                <div class="skills-imgs">
+                                    <img class="react" src="img/react logo.png">
+                                    <img class="bootstrap" src="img/bootstrap.jpg">
+                                </div>
+                                <div class="skills">
+                                    <h3 class="react-h3">React</h3>
+                                    <h3 class="bootstrap-h3">bootstrap</h3>
+                                </div>
+                            </div>
                         </div>
                         </section>
                         <section class="languages-section">
