@@ -43,10 +43,10 @@ btn.addEventListener('click',()=>{
         currentPage.textContent = 1;
         btnTxt.textContent = 'Next Page';
         changeContent.innerHTML = `
-        <section class="objective-section">
+                    <section class="objective-section">
                         <h2>Objective</h2>
                         <p>
-                            Pursuing a job as a front end web developer through my acquired knowledge of the basics of web development and the popular javascript framework (React).
+                            Pursuing a job as a front end web developer through my acquired knowledge of html, css and the popular javascript framework (React).
                         </p>
                     </section>
                     
@@ -54,7 +54,7 @@ btn.addEventListener('click',()=>{
                         <h2>EDUCATION</h2>
                         <div class="education-div">
                             <h3 class="date">9 / 2020 - till now</h3>
-                            <h3 class="degree-details">Arab International University (AIU)</h3>
+                            <h3 class="degree-details">Arab International University (AIU) <br> bachelor's degree information technology</h3>
                         </div>
                     </section>
 
@@ -79,27 +79,6 @@ btn.addEventListener('click',()=>{
                                     <h3 class="react-h3">React</h3>
                                 </div>
                             </div>
-                        </div>
-                        </section>
-
-                    <section class="languages-section">
-                        <h2>LANGUAGES</h2>
-                        <div class="languages-div">
-                            <ul class="languages">
-                                <li>Arabic</li>
-                                <li>English</li>
-                                <!-- <li>German</li> -->
-                            </ul>
-                            <ul>
-                                <li>  |  </li>
-                                <li>  |  </li>
-                                <!-- <li>  |  </li> -->
-                            </ul>
-                            <ul class="level">
-                                <li>Native</li>
-                                <li>Advanced / Fluent</li>
-                                <!-- <li>Beginner</li> -->
-                            </ul>
                         </div>
                         </section>
                         `;
