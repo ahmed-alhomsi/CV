@@ -265,6 +265,11 @@ section {
     cursor: pointer;
 }
 
+.map {
+    max-width: 90%;
+    max-height: 20em;
+}
+
 @media screen and (max-width: 866px) {
     .cv {
         margin: 0px;
