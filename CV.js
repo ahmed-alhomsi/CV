@@ -58,29 +58,63 @@ btn.addEventListener('click',()=>{
                         </div>
                     </section>
 
+                    <section class="experience-section">
+                        <h2>Experience</h2>
+                        <div>
+                            <h3>Half a year of Experience working at OTOM8 (automate)</h3>
+                            <!-- <p>Worked on different projects, like building Static webpages for clients (HTML + CSS +
+                                vanilla Javascript), and also building projects using the headless CMS tool Directus,
+                                buidling dashboards for clients and automating systems.</p> -->
+                            <ul>
+                                <h3>Some Main Tasks:</h3>
+                                <li>Buidling Directus Dashboards (like Ejet Elkahraba System Automation Dashboard)</li>
+                                <li>Building Static Webpages and Websites</li>
+                                <!-- <li>Building Wordpress Sites (like Chatila ecommerce shop)</li> -->
+                            </ul>
+                        </div>
+                    </section>
+
                     <section class="skills-section">
                         <h1>SKILLS</h1>
-                        <div class="skills-div">
-                            <div class="skills-imgs">
-                                <img class="html" src="img/logo_html.png">
-                                <img class="css" src="img/logo_css.png">
-                                <img class="javascript" src="img/javascript-39394.png">
-                            </div>
-                            <div class="skills">
-                                <h3 class="html-h3">HTML</h3>
-                                <h3 class="css-h3">CSS</h3>
-                                <h3 class="js-h3">JAVASCRIPT</h3>
-                            </div>
-                            <div class="skills-div">
-                                <div class="skills-imgs">
-                                    <img class="react" src="img/react logo.png">
+                        <div>
+
+                            <div class="skills-icons-div">
+
+                                <div>
+                                    <img src="img/logo_html.png">
+                                    <h3>HTML</h3>
                                 </div>
-                                <div class="skills-2">
-                                    <h3 class="react-h3">React</h3>
+
+                                <div>
+                                    <img src="img/logo_css.png">
+                                    <h3>CSS</h3>
+                                </div>
+
+                                <div>
+                                    <img src="img/javascript-39394.png">
+                                    <h3>JAVASCRIPT</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="skills-icons-div">
+
+
+                                <div>
+                                    <img src="img/react logo.png">
+                                    <h3>React</h3>
+                                </div>
+
+
+                                <div>
+                                    <img src="img/directus logo.png" alt="">
+                                    <h3>Directus</h3>
                                 </div>
                             </div>
+
                         </div>
-                        </section>
+
+                    </section>
                         `;
     }
 });
